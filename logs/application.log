@@ -1,0 +1,310 @@
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T21:48:38.564Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T21:48:38.288Z"}
+{"level":"info","message":"Fetching calls from the last 7 days","timestamp":"2025-05-06T21:48:38.566Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T21:48:38.570Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:48:38.293Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:48:38.294Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:48:38.565Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:48:38.566Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:48:38.566Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:48:38.567Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:48:38.571Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:48:38.571Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T21:48:40.294Z"}
+{"days":7,"error":"Request failed with status code 404","level":"error","message":"Failed to fetch recent calls","statusCode":404,"timestamp":"2025-05-06T21:48:40.467Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T21:53:19.090Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T21:53:19.367Z"}
+{"level":"info","message":"Fetching calls from the last 7 days","timestamp":"2025-05-06T21:53:19.371Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:53:19.095Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T21:53:19.376Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:53:19.096Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:53:19.368Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:53:19.370Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:53:19.371Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:53:19.372Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:53:19.376Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:53:19.377Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T21:53:20.489Z"}
+{"days":7,"error":"Request failed with status code 404","level":"error","message":"Failed to fetch recent calls","statusCode":404,"timestamp":"2025-05-06T21:53:20.641Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T21:56:25.945Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T21:56:26.136Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:56:25.949Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:56:25.949Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:56:26.136Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:56:26.137Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:56:26.138Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:56:26.138Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:56:26.139Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:56:26.140Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T21:56:26.143Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T21:56:26.144Z"}
+{"level":"info","message":"Fetching calls from the last 7 days","timestamp":"2025-05-06T21:56:26.138Z"}
+{"level":"info","message":"Date range: 2025-04-29 to 2025-05-06","timestamp":"2025-05-06T21:56:26.139Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T21:56:26.143Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T21:56:26.895Z"}
+{"level":"warn","message":"Failed with GetCallsInDateRange: Request failed with status code 404, trying fallback method","timestamp":"2025-05-06T21:56:26.973Z"}
+{"level":"info","message":"Trying fallback to Active calls endpoint","timestamp":"2025-05-06T21:56:26.974Z"}
+{"level":"warn","message":"Failed with Active calls endpoint: Request failed with status code 404","timestamp":"2025-05-06T21:56:27.182Z"}
+{"level":"warn","message":"All methods to fetch calls failed, returning empty array","timestamp":"2025-05-06T21:56:27.183Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T21:56:27.183Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T21:56:27.258Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T21:56:27.811Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T21:56:28.160Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T21:56:28.197Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T21:56:28.233Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T22:08:09.734Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T22:08:09.741Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:08:09.738Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:08:09.738Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:08:09.742Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:08:09.743Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:08:10.872Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:08:10.958Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T22:08:11.333Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T22:08:11.334Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-06T22:08:11.350Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-06T22:08:11.433Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-06T22:08:11.532Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T22:08:11.533Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T22:11:07.491Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T22:11:07.499Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:11:07.494Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:11:07.495Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:11:07.499Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:11:07.500Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T22:11:08.005Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T22:11:08.006Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-06T22:11:08.021Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-06T22:11:08.237Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-06T22:11:08.330Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T22:11:08.331Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:11:08.499Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:11:08.502Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T22:19:22.901Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T22:19:22.894Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:19:22.897Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:19:22.898Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:19:22.902Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:19:22.902Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T22:19:23.485Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T22:19:23.486Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-06T22:19:23.501Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-06T22:19:23.725Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-06T22:19:23.814Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T22:19:23.815Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:19:23.981Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:19:24.540Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T22:27:16.422Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T22:27:16.431Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:27:16.426Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:27:16.427Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:27:16.431Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:27:16.432Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T22:27:16.997Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T22:27:16.998Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-06T22:27:17.014Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-06T22:27:17.245Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-06T22:27:17.358Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T22:27:17.359Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:27:17.516Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:27:18.248Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-06T22:27:35.166Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-06T22:27:35.173Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:27:35.169Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:27:35.170Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-06T22:27:35.173Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-06T22:27:35.174Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-06T22:27:35.768Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-06T22:27:35.769Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-06T22:27:35.784Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-06T22:27:36.014Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-06T22:27:36.118Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-06T22:27:36.119Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:27:36.288Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-06T22:27:36.668Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T02:24:57.591Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T02:24:57.599Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:24:57.595Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:24:57.595Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:24:57.599Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:24:57.600Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T02:24:58.202Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T02:24:58.203Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-07T02:24:58.220Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-07T02:24:58.445Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-07T02:24:58.542Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-07T02:24:58.543Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:24:58.770Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:24:58.854Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T02:25:53.302Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T02:25:53.310Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:25:53.306Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:25:53.307Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:25:53.310Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:25:53.311Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T02:25:53.805Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T02:25:53.807Z"}
+{"level":"info","message":"Retrieved 4 active calls","timestamp":"2025-05-07T02:25:53.977Z"}
+{"level":"info","message":"Filtered to 4 calls within the last 7 days","timestamp":"2025-05-07T02:25:53.978Z"}
+{"level":"info","message":"Processing 4 calls...","timestamp":"2025-05-07T02:25:53.979Z"}
+{"level":"info","message":"Processing call 198513...","timestamp":"2025-05-07T02:25:53.979Z"}
+{"level":"info","message":"Fetching extra data for call 198513...","timestamp":"2025-05-07T02:25:53.980Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198513","timestamp":"2025-05-07T02:25:54.421Z"}
+{"level":"info","message":"Generated XML (2182 bytes)","timestamp":"2025-05-07T02:25:54.430Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:25:54.433Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:25:54.673Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:25:54.755Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:25:54.756Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:25:59.676Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:25:59.697Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:26:09.704Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:09.726Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:09.727Z"}
+{"level":"info","message":"Processing call 198505...","timestamp":"2025-05-07T02:26:09.727Z"}
+{"level":"info","message":"Fetching extra data for call 198505...","timestamp":"2025-05-07T02:26:09.727Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198505","timestamp":"2025-05-07T02:26:10.849Z"}
+{"level":"info","message":"Generated XML (2312 bytes)","timestamp":"2025-05-07T02:26:10.852Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:26:10.856Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:10.859Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:26:15.865Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:15.887Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:26:25.900Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:25.978Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:25.979Z"}
+{"level":"info","message":"Processing call 198424...","timestamp":"2025-05-07T02:26:25.980Z"}
+{"level":"info","message":"Fetching extra data for call 198424...","timestamp":"2025-05-07T02:26:25.980Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198424","timestamp":"2025-05-07T02:26:27.092Z"}
+{"level":"info","message":"Generated XML (2203 bytes)","timestamp":"2025-05-07T02:26:27.095Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:26:27.098Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:27.102Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:26:32.112Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:32.136Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:26:42.149Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:42.228Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:42.229Z"}
+{"level":"info","message":"Processing call 198414...","timestamp":"2025-05-07T02:26:42.230Z"}
+{"level":"info","message":"Fetching extra data for call 198414...","timestamp":"2025-05-07T02:26:42.230Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198414","timestamp":"2025-05-07T02:26:43.203Z"}
+{"level":"info","message":"Generated XML (1747 bytes)","timestamp":"2025-05-07T02:26:43.205Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:26:43.208Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:43.281Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:26:48.292Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:48.374Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:26:58.392Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:58.461Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:58.462Z"}
+{"level":"info","message":"Completed processing. Success: 0/4 calls.","timestamp":"2025-05-07T02:26:58.462Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T02:29:25.214Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T02:29:25.222Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:29:25.217Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:29:25.218Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T02:29:25.222Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T02:29:25.222Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T02:29:25.741Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T02:29:25.743Z"}
+{"level":"info","message":"Retrieved 4 active calls","timestamp":"2025-05-07T02:29:25.869Z"}
+{"level":"info","message":"Filtered to 4 calls within the last 7 days","timestamp":"2025-05-07T02:29:25.869Z"}
+{"level":"info","message":"Processing 4 calls...","timestamp":"2025-05-07T02:29:25.870Z"}
+{"level":"info","message":"Processing call 198513...","timestamp":"2025-05-07T02:29:25.870Z"}
+{"level":"info","message":"Fetching extra data for call 198513...","timestamp":"2025-05-07T02:29:25.871Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198513","timestamp":"2025-05-07T02:29:26.327Z"}
+{"level":"info","message":"Generated XML (2182 bytes)","timestamp":"2025-05-07T02:29:26.335Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:29:26.339Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:26.481Z"}
+{"level":"info","message":"Created Call Data sheet with headers","timestamp":"2025-05-07T02:29:29.389Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:29:29.389Z"}
+{"level":"info","message":"Created Call Data sheet with headers","timestamp":"2025-05-07T02:29:29.525Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T02:29:29.526Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:29:31.485Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:31.514Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:29:41.518Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:41.546Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:41.547Z"}
+{"level":"info","message":"Processing call 198505...","timestamp":"2025-05-07T02:29:41.548Z"}
+{"level":"info","message":"Fetching extra data for call 198505...","timestamp":"2025-05-07T02:29:41.548Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198505","timestamp":"2025-05-07T02:29:42.559Z"}
+{"level":"info","message":"Generated XML (2312 bytes)","timestamp":"2025-05-07T02:29:42.561Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:29:42.564Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:42.568Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:29:47.583Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:47.607Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:29:57.616Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:57.696Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:57.697Z"}
+{"level":"info","message":"Processing call 198424...","timestamp":"2025-05-07T02:29:57.698Z"}
+{"level":"info","message":"Fetching extra data for call 198424...","timestamp":"2025-05-07T02:29:57.698Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198424","timestamp":"2025-05-07T02:29:58.706Z"}
+{"level":"info","message":"Generated XML (2203 bytes)","timestamp":"2025-05-07T02:29:58.707Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:29:58.710Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:58.712Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:30:03.721Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:03.760Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:30:13.771Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:13.853Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:13.854Z"}
+{"level":"info","message":"Processing call 198414...","timestamp":"2025-05-07T02:30:13.855Z"}
+{"level":"info","message":"Fetching extra data for call 198414...","timestamp":"2025-05-07T02:30:13.855Z"}
+{"level":"info","message":"Successfully retrieved extra data for call 198414","timestamp":"2025-05-07T02:30:14.943Z"}
+{"level":"info","message":"Generated XML (1747 bytes)","timestamp":"2025-05-07T02:30:14.944Z"}
+{"level":"info","message":"SFTP attempt 1...","timestamp":"2025-05-07T02:30:14.946Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:14.949Z"}
+{"level":"info","message":"SFTP attempt 2...","timestamp":"2025-05-07T02:30:19.955Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:19.984Z"}
+{"level":"info","message":"SFTP attempt 3...","timestamp":"2025-05-07T02:30:30.001Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:30.094Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:30.095Z"}
+{"level":"info","message":"Completed processing. Success: 0/4 calls.","timestamp":"2025-05-07T02:30:30.095Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T05:05:04.216Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T05:05:04.543Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:05:04.222Z"}
+{"level":"info","message":"Fetching calls from the last 7 days","timestamp":"2025-05-07T05:05:04.546Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:05:04.223Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:05:04.544Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:05:04.545Z"}
+{"level":"info","message":"Date range: 2025-04-30 to 2025-05-07","timestamp":"2025-05-07T05:05:04.548Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:05:04.546Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:05:04.547Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T05:05:04.554Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:05:04.548Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:05:04.549Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:05:04.555Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:05:04.555Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T05:05:05.608Z"}
+{"level":"warn","message":"Failed with GetCallsInDateRange: Request failed with status code 404, trying fallback method","timestamp":"2025-05-07T05:05:05.723Z"}
+{"level":"info","message":"Trying fallback to Active calls endpoint","timestamp":"2025-05-07T05:05:05.724Z"}
+{"level":"warn","message":"Failed with Active calls endpoint: Request failed with status code 404","timestamp":"2025-05-07T05:05:06.009Z"}
+{"level":"warn","message":"All methods to fetch calls failed, returning empty array","timestamp":"2025-05-07T05:05:06.009Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-07T05:05:06.010Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:05:06.463Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:05:06.499Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:05:06.584Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:05:06.627Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:05:07.148Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T05:21:55.869Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T05:21:55.878Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:21:55.873Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:21:55.873Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:21:55.878Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:21:55.879Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T05:21:56.538Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T05:21:56.539Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-07T05:21:56.562Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-07T05:21:56.772Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-07T05:21:56.864Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-07T05:21:56.865Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:21:57.021Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:21:57.035Z"}
+{"level":"info","message":"Logger test successful","timestamp":"2025-05-07T05:22:20.492Z"}
+{"level":"info","message":"Fetching new Resgrid API token...","timestamp":"2025-05-07T05:22:20.503Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:22:20.497Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:22:20.498Z"}
+{"level":"info","message":"Using legacy credential method (file or base64)","timestamp":"2025-05-07T05:22:20.504Z"}
+{"level":"info","message":"Successfully initialized Google Sheets auth with key file","timestamp":"2025-05-07T05:22:20.505Z"}
+{"level":"info","message":"Successfully obtained new API token","timestamp":"2025-05-07T05:22:21.139Z"}
+{"level":"info","message":"Fetching calls from last 7 days...","timestamp":"2025-05-07T05:22:21.140Z"}
+{"level":"info","message":"Date range: 4/29/2025 to 5/6/2025","timestamp":"2025-05-07T05:22:21.160Z"}
+{"level":"warn","message":"First endpoint failed: Request failed with status code 404, trying GetActiveCalls endpoint","timestamp":"2025-05-07T05:22:21.496Z"}
+{"level":"warn","message":"Unexpected response format from GetActiveCalls endpoint","timestamp":"2025-05-07T05:22:21.614Z"}
+{"level":"info","message":"No calls found for processing","timestamp":"2025-05-07T05:22:21.614Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:22:22.144Z"}
+{"level":"info","message":"Google Sheets logging initialized successfully","timestamp":"2025-05-07T05:22:22.458Z"}

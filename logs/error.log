@@ -1,0 +1,34 @@
+{"days":7,"error":"Request failed with status code 404","level":"error","message":"Failed to fetch recent calls","statusCode":404,"timestamp":"2025-05-06T21:48:40.467Z"}
+{"days":7,"error":"Request failed with status code 404","level":"error","message":"Failed to fetch recent calls","statusCode":404,"timestamp":"2025-05-06T21:53:20.641Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:25:54.673Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:25:59.697Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:09.726Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:09.727Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:10.859Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:15.887Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:25.978Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:25.979Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:27.102Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:32.136Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:42.228Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:42.229Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:43.281Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:48.374Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:58.461Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:26:58.462Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:26.481Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:31.514Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:41.546Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:41.547Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:42.568Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:47.607Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:57.696Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:57.697Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:29:58.712Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:03.760Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:13.853Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:13.854Z"}
+{"level":"error","message":"SFTP attempt 1 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:14.949Z"}
+{"level":"error","message":"SFTP attempt 2 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:19.984Z"}
+{"level":"error","message":"SFTP attempt 3 failed: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:30.094Z"}
+{"level":"error","message":"Failed to process call: getConnection: getaddrinfo ENOTFOUND sftp.example.com","timestamp":"2025-05-07T02:30:30.095Z"}

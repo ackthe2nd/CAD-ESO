@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>198414</IncidentNumber>
+  <IncidentOrOnset>2025-05-04T12:47:43.743</IncidentOrOnset>
+  <DispatchNotified>2025-05-04T12:47:43.743</DispatchNotified>
+  <ComplaintReportedByDispatch>General Medical</ComplaintReportedByDispatch>
+  <VehicleDispatchLocation>6950 Burnet Ave, Van Nuys, CA 91405, USA</VehicleDispatchLocation>
+  <IncidentAddress1>6950 Burnet Ave</IncidentAddress1>
+  <IncidentAddress2/>
+  <IncidentCity>Van Nuys</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91405</IncidentZip>
+  <IncidentCounty/>
+  <CadDispatchText>Nature of the call field - This is a test call that originated from resgrid</CadDispatchText>
+  <EmsUnitCallSign>No Units</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>No Units</UnitNotifiedByDispatch>
+  <Priority>395</Priority>
+  <ResponseModeToScene>395</ResponseModeToScene>
+  <CrossStreets/>
+  <CallNature>TEST CALL - From Resgrid</CallNature>
+  <CallNatureDescription>This is the notes field Nature of the call field - This is a test call that originated from resgrid</CallNatureDescription>
+  <UnitEnRoute/>
+  <UnitArrivedOnScene/>
+  <UnitAtPatient/>
+  <UnitCleared/>
+  <SceneGpsLocationLat>34.1972274</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.4624216</SceneGpsLocationLong>
+  <VehicleDispatchGpsLocationLat>34.1972274</VehicleDispatchGpsLocationLat>
+  <VehicleDispatchGpsLocationLong>-118.4624216</VehicleDispatchGpsLocationLong>
+  <CallClosedTime/>
+  <RunNumber>25-57</RunNumber>
+  <GeoLocation>
+    <Latitude>34.1972274</Latitude>
+    <Longitude>-118.4624216</Longitude>
+  </GeoLocation>
+</CadIncident>

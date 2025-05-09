@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>197937</IncidentNumber>
+  <IncidentOrOnset>2025-05-02T11:53:46.96</IncidentOrOnset>
+  <DispatchNotified>2025-05-02T11:53:46.96</DispatchNotified>
+  <ComplaintReportedByDispatch>Medical Emergency</ComplaintReportedByDispatch>
+  <VehicleDispatchLocation>6928 Columbus Ave, Van Nuys, CA 91405, USA</VehicleDispatchLocation>
+  <IncidentAddress1>6928 Columbus Ave, Van Nuys, CA 91405, USA</IncidentAddress1>
+  <IncidentAddress2/>
+  <IncidentCity/>
+  <IncidentState/>
+  <IncidentZip/>
+  <IncidentCounty/>
+  <EmsUnitCallSign>STN1</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>STN1</UnitNotifiedByDispatch>
+  <CadDispatchText>Submitted by EMS Incident Dispatch Form - INCIDENT TYPE: Medical Emergency - LOCATION: 6928 Columbus Ave, Van Nuys, CA 91405, USA (By main stage) - ALERTS: NOT BREATHING? (YES) - NOT CONSCIOUS? (YES) - DETAILS:  - COMPLAINANT:    I am part of the event medical team - HAS 911 BEEN CONTACTED?: NO - Submitted via EMIDF</CadDispatchText>
+  <Priority>390</Priority>
+  <ResponseModeToScene>390</ResponseModeToScene>
+  <CrossStreets/>
+  <CallNature>Test -person down</CallNature>
+  <CallNatureDescription>- INCIDENT TYPE: Medical Emergency - LOCATION: 6928 Columbus Ave, Van Nuys, CA 91405, USA (By main stage) - ALERTS: NOT BREATHING? (YES) - NOT CONSCIOUS? (YES) - DETAILS:  - COMPLAINANT:    I am part of the event medical team - HAS 911 BEEN CONTACTED?: NO - Submitted via EMIDF</CallNatureDescription>
+  <CallClosedTime/>
+  <RunNumber>25-56</RunNumber>
+  <GeoLocation>
+    <Latitude>34.19660</Latitude>
+    <Longitude>-118.46335</Longitude>
+  </GeoLocation>
+</CadIncident>

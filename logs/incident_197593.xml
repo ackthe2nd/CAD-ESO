@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>197593</IncidentNumber>
+  <IncidentOrOnset>2025-04-30T23:19:08.23</IncidentOrOnset>
+  <DispatchNotified>2025-04-30T23:19:08.23</DispatchNotified>
+  <ComplaintReportedByDispatch>General Medical</ComplaintReportedByDispatch>
+  <VehicleDispatchLocation>15107 Vanowen St, Van Nuys, CA 91405, USA</VehicleDispatchLocation>
+  <IncidentAddress1>15107 Vanowen St</IncidentAddress1>
+  <IncidentAddress2/>
+  <IncidentCity>Van Nuys</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91405</IncidentZip>
+  <IncidentCounty/>
+  <EmsUnitCallSign>STN1</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>STN1</UnitNotifiedByDispatch>
+  <CadDispatchText>test call for eso 2</CadDispatchText>
+  <Priority>395</Priority>
+  <ResponseModeToScene>395</ResponseModeToScene>
+  <CrossStreets/>
+  <CallNature>test call for eso 2</CallNature>
+  <CallNatureDescription>test call for eso 2</CallNatureDescription>
+  <CallClosedTime/>
+  <RunNumber>25-55</RunNumber>
+  <GeoLocation>
+    <Latitude>34.194731511259526</Latitude>
+    <Longitude>-118.46347332000732</Longitude>
+  </GeoLocation>
+</CadIncident>

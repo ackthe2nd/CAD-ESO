@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>198424</IncidentNumber>
+  <IncidentOrOnset>2025-05-04T15:40:29.397</IncidentOrOnset>
+  <DispatchNotified>2025-05-04T15:40:29.397</DispatchNotified>
+  <ComplaintReportedByDispatch>Medical Emergency</ComplaintReportedByDispatch>
+  <VehicleDispatchLocation>14051 Califa St, Sherman Oaks, CA 91401, USA</VehicleDispatchLocation>
+  <IncidentAddress1>14051 Califa St</IncidentAddress1>
+  <IncidentAddress2/>
+  <IncidentCity>Sherman Oaks</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91401</IncidentZip>
+  <IncidentCounty/>
+  <CadDispatchText>- INCIDENT TYPE: Medical Emergency - LOCATION: 14051 Califa St, Sherman Oaks, CA 91401, USA (Front Yard) - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS: ADDITIONAL DETAILS - COMPLAINANT: FIRSTNAME LASTNAME (111) 111-1111 I am the Patient - HAS 911 BEEN CONTACTED?: - Submitted via EMIDF</CadDispatchText>
+  <EmsUnitCallSign>No Units</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>No Units</UnitNotifiedByDispatch>
+  <Priority>390</Priority>
+  <ResponseModeToScene>390</ResponseModeToScene>
+  <CrossStreets/>
+  <CallNature>TEST - Form Submit</CallNature>
+  <CallNatureDescription>Submitted by EMS Incident Dispatch Form - INCIDENT TYPE: Medical Emergency - LOCATION: 14051 Califa St, Sherman Oaks, CA 91401, USA (Front Yard) - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS: ADDITIONAL DETAILS - COMPLAINANT: FIRSTNAME LASTNAME (111) 111-1111 I am the Patient - HAS 911 BEEN CONTACTED?: - Submitted via EMIDF</CallNatureDescription>
+  <UnitEnRoute/>
+  <UnitArrivedOnScene/>
+  <UnitAtPatient/>
+  <UnitCleared/>
+  <SceneGpsLocationLat>34.17768</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.43952</SceneGpsLocationLong>
+  <VehicleDispatchGpsLocationLat>34.17768</VehicleDispatchGpsLocationLat>
+  <VehicleDispatchGpsLocationLong>-118.43952</VehicleDispatchGpsLocationLong>
+  <CallClosedTime/>
+  <RunNumber>25-58</RunNumber>
+  <GeoLocation>
+    <Latitude>34.17768</Latitude>
+    <Longitude>-118.43952</Longitude>
+  </GeoLocation>
+</CadIncident>
