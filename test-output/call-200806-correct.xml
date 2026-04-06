@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>200806</IncidentNumber>
+  <IncidentOrOnset>2025-06-03T12:41:29.803</IncidentOrOnset>
+  <DispatchNotified>2025-06-03T12:41:29.803</DispatchNotified>
+  <IncidentAddress1>16541 Gilmore St</IncidentAddress1>
+  <IncidentCity>Lake Balboa</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91406</IncidentZip>
+  <CadDispatchText>EVENT: Other - Non-Emergency - INCIDENT TYPE: GENERAL MEDICAL - LOCATION: In street - 16541 Gilmore St, Lake Balboa, CA 91406, USA - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS: This is a test -  HAS 911 BEEN CONTACTED?: () - COMPLAINANT:  -   - I am part of the event medical team</CadDispatchText>
+  <EmsUnitCallSign></EmsUnitCallSign>
+  <UnitNotifiedByDispatch>2025-06-03T12:41:29.803</UnitNotifiedByDispatch>
+  <ResponseModeToScene>395</ResponseModeToScene>
+  <CallNature>GENERAL MEDICAL</CallNature>
+  <UnitEnRoute></UnitEnRoute>
+  <UnitArrivedOnScene></UnitArrivedOnScene>
+  <UnitAtPatient></UnitAtPatient>
+  <UnitCleared></UnitCleared>
+  <UnitBackInService></UnitBackInService>
+  <SceneGpsLocationLat>34.18757</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.49404</SceneGpsLocationLong>
+  <PatientFirstName></PatientFirstName>
+  <PatientLastName></PatientLastName>
+  <PatientDOB></PatientDOB>
+</CadIncident>

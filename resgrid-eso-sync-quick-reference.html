@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgrid-ESO Sync Quick Reference</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+            margin: 0;
+            padding: 0;
+            font-size: 11px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 1.8em;
+            font-weight: 300;
+        }
+        
+        .header p {
+            margin: 5px 0 0 0;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 0 15px;
+        }
+        
+        .section {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+        
+        .section h2 {
+            color: #1e3c72;
+            border-bottom: 2px solid #2a5298;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+        
+        .section h3 {
+            color: #2a5298;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+        
+        .section ul {
+            margin: 5px 0;
+            padding-left: 18px;
+        }
+        
+        .section li {
+            margin-bottom: 4px;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .status-green { background: #28a745; }
+        .status-yellow { background: #ffc107; }
+        .status-red { background: #dc3545; }
+        
+        .code-block {
+            background: #f1f3f4;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            padding: 8px;
+            font-family: monospace;
+            font-size: 0.9em;
+            margin: 8px 0;
+        }
+        
+        .alert-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .info-box {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #17a2b8;
+        }
+        
+        .footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.8em;
+            color: #666;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Resgrid-ESO Sync Quick Reference</h1>
+        <p>Staff Training Guide & System Operation Overview</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>What It Does</h2>
+            <p><strong>Automatic Integration:</strong> Connects Resgrid dispatch system to ESO reporting with zero manual intervention.</p>
+            
+            <h3>Key Functions</h3>
+            <ul>
+                <li>Detects new emergency calls instantly</li>
+                <li>Extracts complete call data (37 fields)</li>
+                <li>Generates ESO-compliant XML files</li>
+                <li>Uploads to ESO servers automatically</li>
+                <li>Logs everything to Google Sheets</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>System Status Indicators</h2>
+            <p><span class="status-indicator status-green"></span><strong>Green:</strong> System operating normally</p>
+            <p><span class="status-indicator status-yellow"></span><strong>Yellow:</strong> Minor issue, system still functional</p>
+            <p><span class="status-indicator status-red"></span><strong>Red:</strong> System error, requires attention</p>
+            
+            <h3>Check System Health</h3>
+            <div class="code-block">Health URL: [deployment-url]/health</div>
+            
+            <h3>Monitor Operations</h3>
+            <ul>
+                <li>Google Sheets "Logs" tab for system events</li>
+                <li>Google Sheets "Call Data" tab for processed calls</li>
+                <li>Check "ESO Upload Status" column for success/failure</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Data Flow Process</h2>
+            <ol>
+                <li><strong>Call Created</strong> in Resgrid dispatch</li>
+                <li><strong>System Detects</strong> call via live connection</li>
+                <li><strong>Data Extracted</strong> from Resgrid (units, times, address)</li>
+                <li><strong>XML Generated</strong> in ESO format</li>
+                <li><strong>File Uploaded</strong> to ESO servers</li>
+                <li><strong>Results Logged</strong> to Google Sheets</li>
+            </ol>
+            
+            <div class="alert-box">
+                <strong>Processing Time:</strong> Complete cycle typically takes less than 2 seconds
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Google Sheets Overview</h2>
+            <h3>Call Data Tab (37 Columns)</h3>
+            <ul>
+                <li>Call Received Time, Emergency Call ID</li>
+                <li>Priority, Description, Responding Units</li>
+                <li>Address components, GPS coordinates</li>
+                <li>Unit timing data (dispatch, arrival, cleared)</li>
+                <li>ESO Upload Status, Generated XML</li>
+            </ul>
+            
+            <h3>Logs Tab</h3>
+            <ul>
+                <li>System startup and connection events</li>
+                <li>Call processing activities</li>
+                <li>Upload success/failure notifications</li>
+                <li>Error messages and warnings</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Call Processing Details</h2>
+            <h3>What Gets Captured</h3>
+            <ul>
+                <li><strong>Basic Info:</strong> Call ID, nature, priority, address</li>
+                <li><strong>Units:</strong> All responding units with individual timings</li>
+                <li><strong>Times:</strong> Dispatch, en route, arrival, patient contact</li>
+                <li><strong>Location:</strong> Full address, GPS coordinates</li>
+                <li><strong>Patient:</strong> Name, DOB, contact information</li>
+                <li><strong>Closure:</strong> Call closed time, final unit status</li>
+            </ul>
+            
+            <h3>XML File Structure</h3>
+            <ul>
+                <li>CadIncident root element</li>
+                <li>Complete incident details</li>
+                <li>Individual unit entries with times</li>
+                <li>Patient information</li>
+                <li>GPS coordinates and addresses</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Common Scenarios</h2>
+            <h3>Normal Operation</h3>
+            <ul>
+                <li>Call appears in Resgrid → Automatically processed → Shows in Google Sheets</li>
+                <li>ESO Upload Status shows "Successful"</li>
+                <li>XML column contains complete call data</li>
+            </ul>
+            
+            <h3>Call Modifications</h3>
+            <ul>
+                <li>Unit assignments change → New XML generated</li>
+                <li>Address updated → GPS coordinates refreshed</li>
+                <li>Call closed → Final XML with closure data</li>
+            </ul>
+            
+            <h3>Test Calls</h3>
+            <ul>
+                <li>Use "Test Call" button in Google Sheets</li>
+                <li>Creates test entry with "[TEST BUTTON]" identifier</li>
+                <li>Does not affect production data</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Troubleshooting</h2>
+            <h3>If Calls Not Processing</h3>
+            <ol>
+                <li>Check system health endpoint</li>
+                <li>Verify Resgrid connection in logs</li>
+                <li>Confirm API credentials valid</li>
+                <li>Check Google Sheets for error messages</li>
+            </ol>
+            
+            <h3>Upload Failures</h3>
+            <ul>
+                <li>ESO Upload Status shows "Failed"</li>
+                <li>Check SFTP credentials</li>
+                <li>Verify network connectivity</li>
+                <li>System will automatically retry</li>
+            </ul>
+            
+            <div class="info-box">
+                <strong>Support:</strong> Check Google Sheets Logs tab for detailed error messages and system status
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+            <h3>Reliability</h3>
+            <ul>
+                <li>Live connection + backup polling</li>
+                <li>4-strategy SFTP connection approach</li>
+                <li>Automatic retry on failures</li>
+                <li>Complete operational logging</li>
+            </ul>
+            
+            <h3>Data Quality</h3>
+            <ul>
+                <li>GPS geocoding for addresses</li>
+                <li>Pacific Time standardization</li>
+                <li>XML integrity verification</li>
+                <li>Complete audit trail</li>
+            </ul>
+            
+            <h3>Monitoring</h3>
+            <ul>
+                <li>Real-time health checks</li>
+                <li>Performance metrics tracking</li>
+                <li>Comprehensive Google Sheets logging</li>
+                <li>Error categorization and reporting</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>Resgrid-ESO Sync v2.1.2</strong> | Emergency Services Integration Platform | Production Ready</p>
+        </div>
+    </div>
+</body>
+</html>

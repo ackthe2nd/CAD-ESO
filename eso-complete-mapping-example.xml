@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>98765</IncidentNumber>
+  <IncidentOrOnset/>
+  <DispatchNotified/>
+  <ComplaintReportedByDispatch/>
+  <IncidentAddress1>456 Oak Street, Anytown, TX 75001</IncidentAddress1>
+  <IncidentCity>Anytown</IncidentCity>
+  <IncidentState>TX</IncidentState>
+  <IncidentZip>75001</IncidentZip>
+  <CadDispatchText>VEHICLE ACCIDENT WITH INJURIES</CadDispatchText>
+  <EmsUnitCallSign/>
+  <UnitNotifiedByDispatch/>
+  <ResponseModeToScene>390</ResponseModeToScene>
+  <CallNature/>
+  <CallNatureDescription>VEHICLE ACCIDENT WITH INJURIES</CallNatureDescription>
+  <UnitEnRoute>2025-05-06T10:19:45.090Z</UnitEnRoute>
+  <UnitArrivedOnScene>2025-05-06T10:21:45.090Z</UnitArrivedOnScene>
+  <UnitAtPatient/>
+  <UnitCleared/>
+  <SceneGpsLocationLat/>
+  <SceneGpsLocationLong/>
+  <PatientFirstName/>
+  <PatientLastName/>
+  <PatientPhone/>
+  <PatientDOB/>
+</CadIncident>

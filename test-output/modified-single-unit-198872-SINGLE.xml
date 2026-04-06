@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>198872-SINGLE</IncidentNumber>
+  <IncidentOrOnset>2025-05-09T18:10:55.457</IncidentOrOnset>
+  <DispatchNotified>2025-05-09T18:10:55.457</DispatchNotified>
+  <IncidentAddress1>5846 Painted Pony Cir</IncidentAddress1>
+  <IncidentCity>Simi Valley</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>93063</IncidentZip>
+  <CadDispatchText>nature of the call</CadDispatchText>
+  <EmsUnitCallSign>STN1</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>2025-05-09T18:10:55.457</UnitNotifiedByDispatch>
+  <ResponseModeToScene>395</ResponseModeToScene>
+  <CallNature>Single Unit Test - ANOTHER TEST</CallNature>
+  <UnitEnRoute>2025-05-10T02:21:27.85</UnitEnRoute>
+  <UnitArrivedOnScene>2025-05-10T02:24:11.493</UnitArrivedOnScene>
+  <UnitAtPatient></UnitAtPatient>
+  <UnitCleared></UnitCleared>
+  <UnitBackInService></UnitBackInService>
+  <SceneGpsLocationLat>34.29357264661937</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.67745591364593</SceneGpsLocationLong>
+  <PatientFirstName></PatientFirstName>
+  <PatientLastName></PatientLastName>
+  <PatientDOB></PatientDOB>
+</CadIncident>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>23451</IncidentNumber>
+  <IncidentOrOnset>2025-05-01T05:48:40.970Z</IncidentOrOnset>
+  <ComplaintReportedByDispatch>MEDICAL EMERGENCY - CHEST PAIN</ComplaintReportedByDispatch>
+  <VehicleDispatchLocation>123 Main Street, Anytown, TX 75001</VehicleDispatchLocation>
+  <EmsUnitCallSign>Engine 1, Medic 2, Battalion 3</EmsUnitCallSign>
+  <CadDispatchText>Patient is a 65 year old male experiencing chest pain and shortness of breath. Patient has history of cardiac issues. BP 150/90, HR 95, SpO2 92%.</CadDispatchText>
+  <IncidentAddress1>123 Main Street</IncidentAddress1>
+  <IncidentAddress2>Suite 100</IncidentAddress2>
+  <DestinationCity>Anytown</DestinationCity>
+  <DestinationCounty>Smith County</DestinationCounty>
+  <DestinationState>TX</DestinationState>
+  <DestinationZip>75001</DestinationZip>
+  <DestinationName>Memorial Hospital</DestinationName>
+  <EMD_Performed>High</EMD_Performed>
+  <GeoLocation>33.1234,-96.6789</GeoLocation>
+  <CrossStreet>Oak Avenue &amp; Pine Street</CrossStreet>
+  <ReportingParty>John Smith (Neighbor)</ReportingParty>
+  <ContactPhone>555-123-4567</ContactPhone>
+  <MapPage>Page 23, Grid C5</MapPage>
+  <RunNumber>43122</RunNumber>
+  <CAD_VehicleDisposition>Active</CAD_VehicleDisposition>
+  <Driver>John Doe</Driver>
+  <TransferOfPatientTimeOnScene>2025-05-01T06:48:40.972Z</TransferOfPatientTimeOnScene>
+  <CAD_ClosedTime>2025-05-01T07:48:40.972Z</CAD_ClosedTime>
+  <CAD_UnitNotifiedTime>2025-05-01T05:18:40.972Z</CAD_UnitNotifiedTime>
+  <CAD_EnrouteTime>2025-05-01T05:28:40.972Z</CAD_EnrouteTime>
+  <CAD_ArrivedTime>2025-05-01T05:38:40.972Z</CAD_ArrivedTime>
+</CadIncident>

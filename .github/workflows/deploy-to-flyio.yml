@@ -1,0 +1,38 @@
+name: Deploy to Fly.io
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy v2.2.0 to Fly.io
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Setup Fly CLI
+      uses: superfly/flyctl-actions/setup-flyctl@master
+      
+    - name: Deploy to Fly.io
+      run: flyctl deploy --remote-only --app resgrid2eso
+      env:
+        FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        
+    - name: Verify deployment
+      run: |
+        sleep 30
+        curl -f https://resgrid2eso.fly.dev/status || exit 1
+        echo "✅ v2.2.0 deployment verified"

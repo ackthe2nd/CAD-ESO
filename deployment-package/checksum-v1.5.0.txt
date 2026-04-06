@@ -1,0 +1,4 @@
+SHA-256: cbce3661332e6496fd335a3c19819c9bc83c612db9701599821a2a36007625d9
+Filename: resgrid-eso-bridge-v1.5.0.zip
+Version: 1.5.0
+Created: 2025-05-10T03:16:44.297Z

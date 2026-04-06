@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>b394de98-a5b7-408d-a1f2-020eddff92b9</Guid>
+  <IncidentNumber>198513</IncidentNumber>
+  <IncidentOrOnset>2025-05-05T20:43:21.933</IncidentOrOnset>
+  <DispatchNotified>2025-05-05T20:43:21.933</DispatchNotified>
+  <ComplaintReportedByDispatch/>
+  <VehicleDispatchLocation>11401 Chalon Rd, Los Angeles, CA 90049, USA</VehicleDispatchLocation>
+  <IncidentAddress1>11401 Chalon Rd</IncidentAddress1>
+  <IncidentAddress2/>
+  <IncidentCity>Los Angeles</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90049</IncidentZip>
+  <IncidentCounty/>
+  <CadDispatchText>EVENT: Other - - INCIDENT TYPE: MEDICAL EMERGENCY - LOCATION: Front yard - 11401 Chalon Rd, Los Angeles, CA 90049, USA - ALERTS: NOT BREATHING? (YES) - NOT CONSCIOUS? (YES) - DETAILS: This is the description for the test - HAS 911 BEEN CONTACTED?: (NO) - COMPLAINANT: Ryan Albaugh - (111) 111-1111 - I am the patient</CadDispatchText>
+  <EmsUnitCallSign>STN1, STN1</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>STN1, STN1</UnitNotifiedByDispatch>
+  <Priority>390</Priority>
+  <ResponseModeToScene>390</ResponseModeToScene>
+  <CrossStreets/>
+  <CallNature>PERSON DOWN</CallNature>
+  <CallNatureDescription>EVENT: Other - - INCIDENT TYPE: MEDICAL EMERGENCY - LOCATION: Front yard - 11401 Chalon Rd, Los Angeles, CA 90049, USA - ALERTS: NOT BREATHING? (YES) - NOT CONSCIOUS? (YES) - DETAILS: This is the description for the test - HAS 911 BEEN CONTACTED?: (NO) - COMPLAINANT: Ryan Albaugh - (111) 111-1111 - I am the patient - Submitted by EMS Incident Dispatch Form</CallNatureDescription>
+  <UnitEnRoute>2025-05-06T10:45:16.843</UnitEnRoute>
+  <UnitArrivedOnScene>2025-05-06T10:48:58.847</UnitArrivedOnScene>
+  <UnitAtPatient/>
+  <UnitCleared/>
+  <UnitBackInService/>
+  <SceneGpsLocationLat>34.08811</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.46246</SceneGpsLocationLong>
+  <VehicleDispatchGpsLocationLat>34.08811</VehicleDispatchGpsLocationLat>
+  <VehicleDispatchGpsLocationLong>-118.46246</VehicleDispatchGpsLocationLong>
+  <CallClosedTime/>
+  <RunNumber>25-60</RunNumber>
+  <GeoLocation>
+    <Latitude>34.08811</Latitude>
+    <Longitude>-118.46246</Longitude>
+  </GeoLocation>
+  <PatientFirstName>Ryan</PatientFirstName>
+  <PatientLastName>Albaugh</PatientLastName>
+  <PatientPhone>(111) 111-1111</PatientPhone>
+  <PatientDOB>01-01-2000</PatientDOB>
+</CadIncident>

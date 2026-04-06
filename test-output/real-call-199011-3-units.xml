@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>199011</IncidentNumber>
+  <IncidentOrOnset>2025-05-10T10:57:24.233</IncidentOrOnset>
+  <DispatchNotified>2025-05-10T10:57:24.233</DispatchNotified>
+  <IncidentAddress1>Unnamed Road</IncidentAddress1>
+  <IncidentCity>Long Beach</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90840</IncidentZip>
+  <CadDispatchText>EVENT: Other - Non-Emergency - INCIDENT TYPE: GENERAL MEDICAL - LOCATION: Inside stadium  - Unnamed Road, Long Beach, CA 90840, USA - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS:  -  HAS 911 BEEN CONTACTED?: () - COMPLAINANT:  -   -</CadDispatchText>
+  <CallNature>Requesting ankle wrap</CallNature>
+  <SceneGpsLocationLat>33.787362074858784</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.11454651631534</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>CMD11</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-10T10:57:24.233</UnitNotifiedByDispatch>
+      <UnitEnRoute>2025-05-10T20:06:02.877</UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>STN1</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-10T10:57:24.233</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>BLS11</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-10T10:57:24.233</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

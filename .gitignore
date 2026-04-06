@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables and secrets - NEVER commit these
+.env
+.env.*
+secrets.env
+*.env
+
+# Google service account credentials - NEVER commit these
+service-account.json
+service-account-*.json
+google-service-account*.json
+temp-service-account.json
+sample-service-account.json
+*-service-account*.json
+*service_account*.json
+
+# Fly.io CLI binary and artifacts
+flyctl
+flyctl.tar.gz
+fly.log
+nohup.out
+
+# Logs
+logs/
+*.log
+
+# Temp / build output
+temp/
+test-output/
+coverage/
+.nyc_output/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Caches
+.cache/
+.pythonlibs/
+
+# Large workspace artifacts and deployment packages
+*.zip
+*.tar.gz
+security-scan-report.json
+generated-icon.png
+attached_assets/
+deployment-package*/
+chatgpt-audit-package*/
+medsync-flyio-deployment*/
+final-deployment*/
+
+# PowerShell deployment scripts (often contain embedded secrets)
+*.ps1

@@ -1,0 +1,39 @@
+# Fly.io Configuration for Resgrid-ESO Bridge - Dedicated Emergency Services
+app = "resgrid2eso"
+primary_region = "ord"
+
+[experimental]
+  auto_rollback = true
+
+[build]
+
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+  FLY_APP_NAME = "resgrid2eso"
+
+# Dedicated machine configuration for emergency services reliability
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = false
+
+# VM configuration - small but dedicated for cost efficiency
+[[vm]]
+  memory = '256mb'
+  cpu_kind = 'shared'
+  cpus = 1
+
+# Health check for emergency services uptime
+[[http_service.checks]]
+  interval = "30s"
+  grace_period = "10s"
+  method = "get"
+  path = "/health"
+  protocol = "http"
+  timeout = "5s"
+  tls_skip_verify = false
+
+[deploy]
+  release_command = "echo 'Emergency services deployment complete'"

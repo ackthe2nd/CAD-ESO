@@ -1,0 +1,66 @@
+# Dependencies (installed fresh in Docker)
+node_modules
+npm-debug.log
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Logs and temp output
+logs
+*.log
+nohup.out
+temp
+test-output
+
+# Fly.io binary and artifacts
+flyctl
+flyctl.tar.gz
+fly.log
+
+# Build / cache directories
+.cache
+.local
+.config
+.pythonlibs
+.nyc_output
+coverage
+
+# Deployment packages and zips
+deployment-package*
+final-deployment*
+fly-deployment
+chatgpt-audit-package*
+medsync-flyio-deployment*
+replit_agent
+*.zip
+*.tar.gz
+
+# Analysis and reports
+analysis
+security-scan-report.json
+attached_assets
+
+# Documentation / media (not needed at runtime)
+README.md
+*.md
+generated-icon.png
+
+# Test and dev scripts
+test-*.js
+confirm-*.js
+check-*.js
+debug-*.js
+fix-*.js
+verify-*.js
+diagnose-*.js

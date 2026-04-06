@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>198862</IncidentNumber>
+  <IncidentOrOnset>2025-05-09T17:24:24.407</IncidentOrOnset>
+  <DispatchNotified>2025-05-09T17:24:24.407</DispatchNotified>
+  <IncidentAddress1>10978 Whipple St</IncidentAddress1>
+  <IncidentCity>Studio City</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91602</IncidentZip>
+  <CadDispatchText>TEST CALL 5EMERGENCYINCIDENT TYPE: Medical EmergencySPECIFIC LOCATION: near stageALERTS: scene safeNOT BREATHING?: NNOT CONSCIOUS?: NDETAILS: w/m 30s leg laceration active bleedingCOMPLAINANT: WitnessHAS 911 BEEN CONTACTED?: N</CadDispatchText>
+  <CallNature>TEST - Male Bleeding</CallNature>
+  <SceneGpsLocationLat>34.1480211992715</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.37017511842626</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>STN1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-09T17:24:24.407</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>BLS11</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-09T17:24:24.407</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

@@ -1,0 +1,9 @@
+Copy and paste this exact command in your PowerShell to force Docker deployment:
+
+flyctl deploy --app resgrid2eso --strategy docker --no-cache
+
+If that fails, try this alternative:
+
+flyctl deploy --app resgrid2eso --dockerfile Dockerfile --strategy docker --no-cache --build-arg NODE_ENV=production
+
+These commands bypass the buildpack cache and force Fly.io to use Docker deployment.

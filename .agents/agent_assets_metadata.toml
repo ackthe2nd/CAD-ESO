@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "dvOcI-w3DQ7Dy-RpKNX9q"
+uri = "file://deployment-package-v2.2.1.zip"
+type = "unspecified"
+title = "MEDsync EMS Suite v2.2.1 — Deployment Package"

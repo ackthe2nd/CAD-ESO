@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>TEST-001</IncidentNumber>
+  <IncidentOrOnset>2025-06-03T09:30:00.000Z</IncidentOrOnset>
+  <DispatchNotified>2025-06-03T09:30:00.000Z</DispatchNotified>
+  <IncidentAddress1>123 Test St</IncidentAddress1>
+  <IncidentCity>Test City</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90210</IncidentZip>
+  <CadDispatchText>Patient experiencing symptoms</CadDispatchText>
+  <EmsUnitCallSign>AMB1</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>2025-06-03T09:30:00.000Z</UnitNotifiedByDispatch>
+  <ResponseModeToScene>390</ResponseModeToScene>
+  <CallNature>Medical Emergency</CallNature>
+  <UnitEnRoute></UnitEnRoute>
+  <UnitArrivedOnScene></UnitArrivedOnScene>
+  <UnitAtPatient></UnitAtPatient>
+  <UnitCleared></UnitCleared>
+  <UnitBackInService></UnitBackInService>
+  <SceneGpsLocationLat>34.0522</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.2437</SceneGpsLocationLong>
+  <PatientFirstName></PatientFirstName>
+  <PatientLastName></PatientLastName>
+  <PatientDOB></PatientDOB>
+</CadIncident>

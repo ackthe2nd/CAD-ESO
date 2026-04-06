@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>DEMO-MULTI-UNITS</IncidentNumber>
+  <IncidentOrOnset>2025-06-03T09:09:16.263Z</IncidentOrOnset>
+  <DispatchNotified>2025-06-03T09:09:16.263Z</DispatchNotified>
+  <IncidentAddress1>456 Emergency Lane</IncidentAddress1>
+  <IncidentCity>Response City</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90210</IncidentZip>
+  <CadDispatchText>Structure Fire - Multiple Units Required</CadDispatchText>
+  <CallNature>Multi-Unit Response Demo</CallNature>
+  <CallNatureDescription>Structure Fire - Multiple Units Required - Testing multiple units XML generation capability</CallNatureDescription>
+  <SceneGpsLocationLat>34.0522</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.2437</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>ENGINE1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:09:16.263Z</UnitNotifiedByDispatch>
+      <UnitEnRoute>2025-06-03T08:59:16.264Z</UnitEnRoute>
+      <UnitArrivedOnScene>2025-06-03T09:04:16.264Z</UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>LADDER2</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:09:16.263Z</UnitNotifiedByDispatch>
+      <UnitEnRoute>2025-06-03T08:59:36.264Z</UnitEnRoute>
+      <UnitArrivedOnScene>2025-06-03T09:04:36.264Z</UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>RESCUE3</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:09:16.263Z</UnitNotifiedByDispatch>
+      <UnitEnRoute>2025-06-03T08:59:56.264Z</UnitEnRoute>
+      <UnitArrivedOnScene>2025-06-03T09:04:56.264Z</UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>CHIEF4</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:09:16.263Z</UnitNotifiedByDispatch>
+      <UnitEnRoute>2025-06-03T09:00:16.264Z</UnitEnRoute>
+      <UnitArrivedOnScene>2025-06-03T09:05:16.264Z</UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

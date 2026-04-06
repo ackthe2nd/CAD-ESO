@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>200893</IncidentNumber>
+  <IncidentOrOnset>2025-06-04T14:59:21.39</IncidentOrOnset>
+  <DispatchNotified>2025-06-04T14:59:21.39</DispatchNotified>
+  <IncidentAddress1>1014 N Gardner St</IncidentAddress1>
+  <IncidentCity>Los Angeles</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90046</IncidentZip>
+  <CadDispatchText>EVENT: Other - Non-Emergency - INCIDENT TYPE: Altered Mental Status - LOCATION: Near bbq food truck - 1014 N Gardner St, Los Angeles, CA 90046, USA - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS: This is a test additional details -  HAS 911 BEEN CONTACTED?: () - COMPLAINANT: Joe Smith - (747) 000-0000  - I am the patient</CadDispatchText>
+  <CallNature>Altered Mental Status</CallNature>
+  <SceneGpsLocationLat>34.08907</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.35300</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>EVTMED1</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-04T14:59:21.39</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName>Joe</PatientFirstName>
+      <PatientLastName>Smith</PatientLastName>
+      <PatientDOB>2000-01-01</PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>IC1</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-04T14:59:21.39</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName>Joe</PatientFirstName>
+      <PatientLastName>Smith</PatientLastName>
+      <PatientDOB>2000-01-01</PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

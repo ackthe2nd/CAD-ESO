@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>TEST-1749277531500</IncidentNumber>
+  <IncidentOrOnset>2025-06-07T06:25:31.500Z</IncidentOrOnset>
+  <CallNature>TEST-CONNECTION</CallNature>
+  <IncidentAddress1>Test Connection</IncidentAddress1>
+  <IncidentCity>Test City</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90210</IncidentZip>
+  <CadDispatchText>SFTP Connection Test</CadDispatchText>
+  <EmsUnitCallSign>TEST-UNIT</EmsUnitCallSign>
+  <UnitNotifiedByDispatch>2025-06-07T06:25:31.500Z</UnitNotifiedByDispatch>
+  <ResponseModeToScene>395</ResponseModeToScene>
+</CadIncident>

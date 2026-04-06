@@ -1,0 +1,68 @@
+modules = ["nodejs-20", "python-3.11", "python3"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["fontconfig", "freetype", "ghostscript", "glib", "glibcLocales", "harfbuzz", "pango", "unzip", "zip"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "UnitMonitor"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "ResgridESOBridge"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "TestLogSheet"
+
+[[workflows.workflow]]
+name = "UnitMonitor"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node confirm-stn1-status.js"
+
+[[workflows.workflow]]
+name = "ResgridESOBridge"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node src/index.js"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "TestLogSheet"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node test-xml-upload-logging.js"
+
+[deployment]
+run = ["sh", "-c", "npm install dotenv winston @microsoft/signalr axios xmlbuilder2 ssh2-sftp-client && cp .env.example .env && node src/index.js"]
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[[ports]]
+localPort = 8081
+externalPort = 8081
+
+[agent]
+expertMode = true

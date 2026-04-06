@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "fast-xml-parser": "^5.2.2",
+    "googleapis": "^148.0.0",
+    "ssh2-sftp-client": "^12.0.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5",
+    "xmlbuilder2": "^3.1.1"
+  }
+}

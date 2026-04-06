@@ -1,0 +1,149 @@
+Getting token...
+Token obtained successfully
+Fetching call extra data...
+
+Call Extra Data structure:
+Top level fields: Data, PageSize, Page, Timestamp, Version, Node, Environment, RequestId, Status, PreviousPageUrl, NextPageUrl
+
+Data fields: CallFormData, Activity, Dispatches, Priority, Protocols
+
+Activities: 2 items
+First activity fields: Id, Timestamp, Type, Name, GroupId, Group, Note, StatusId, Location, StatusText, StatusColor
+First activity: {
+  "Id": "78122",
+  "Timestamp": "2025-05-06T10:45:16.843",
+  "Type": "Unit",
+  "Name": "STN1",
+  "GroupId": null,
+  "Group": null,
+  "Note": "",
+  "StatusId": 5,
+  "Location": "34.197233557745136,-118.46249129828009",
+  "StatusText": "Unknown",
+  "StatusColor": "#ffa500"
+}
+
+Dispatches: 3 items
+First dispatch fields: Id, Timestamp, Type, Name, GroupId, Group, Note, StatusId, Location, StatusText, StatusColor
+First dispatch: {
+  "Id": "F1457F34-94B7-402A-964A-7FE4BCC198F7",
+  "Timestamp": "0001-01-01T00:00:00",
+  "Type": "User",
+  "Name": "Alec Buckner",
+  "GroupId": "4169",
+  "Group": "LA County",
+  "Note": null,
+  "StatusId": 0,
+  "Location": null,
+  "StatusText": null,
+  "StatusColor": null
+}
+
+Call Form Data: Submitted via EMS Incident Dispatch Form
+Could not parse CallFormData as JSON
+
+Priority data: {
+  Id: 1560,
+  DepartmentId: 11682,
+  Name: 'Emergent',
+  Color: '#ff0000',
+  Sort: 0,
+  IsDeleted: false,
+  IsDefault: false,
+  DispatchPersonnel: false,
+  DispatchUnits: false,
+  ForceNotifyAllPersonnel: false,
+  Tone: 3,
+  IsSystemPriority: false
+}
+
+Protocols: []
+
+Full Data Object:
+{
+  "CallFormData": "Submitted via EMS Incident Dispatch Form",
+  "Activity": [
+    {
+      "Id": "78122",
+      "Timestamp": "2025-05-06T10:45:16.843",
+      "Type": "Unit",
+      "Name": "STN1",
+      "GroupId": null,
+      "Group": null,
+      "Note": "",
+      "StatusId": 5,
+      "Location": "34.197233557745136,-118.46249129828009",
+      "StatusText": "Unknown",
+      "StatusColor": "#ffa500"
+    },
+    {
+      "Id": "78123",
+      "Timestamp": "2025-05-06T10:48:58.847",
+      "Type": "Unit",
+      "Name": "STN1",
+      "GroupId": null,
+      "Group": null,
+      "Note": "",
+      "StatusId": 6,
+      "Location": "34.19722223347078,-118.46246817612675",
+      "StatusText": "Unknown",
+      "StatusColor": "#ffa500"
+    }
+  ],
+  "Dispatches": [
+    {
+      "Id": "F1457F34-94B7-402A-964A-7FE4BCC198F7",
+      "Timestamp": "0001-01-01T00:00:00",
+      "Type": "User",
+      "Name": "Alec Buckner",
+      "GroupId": "4169",
+      "Group": "LA County",
+      "Note": null,
+      "StatusId": 0,
+      "Location": null,
+      "StatusText": null,
+      "StatusColor": null
+    },
+    {
+      "Id": "CBDDA59A-4428-45F9-86C0-E2D74B752C8F",
+      "Timestamp": "0001-01-01T00:00:00",
+      "Type": "User",
+      "Name": "Ryan Albaugh",
+      "GroupId": "4169",
+      "Group": "LA County",
+      "Note": null,
+      "StatusId": 0,
+      "Location": null,
+      "StatusText": null,
+      "StatusColor": null
+    },
+    {
+      "Id": "8826",
+      "Timestamp": "0001-01-01T00:00:00",
+      "Type": "Unit",
+      "Name": "STN1",
+      "GroupId": null,
+      "Group": null,
+      "Note": null,
+      "StatusId": 0,
+      "Location": null,
+      "StatusText": null,
+      "StatusColor": null
+    }
+  ],
+  "Priority": {
+    "Id": 1560,
+    "DepartmentId": 11682,
+    "Name": "Emergent",
+    "Color": "#ff0000",
+    "Sort": 0,
+    "IsDeleted": false,
+    "IsDefault": false,
+    "DispatchPersonnel": false,
+    "DispatchUnits": false,
+    "ForceNotifyAllPersonnel": false,
+    "Tone": 3,
+    "IsSystemPriority": false
+  },
+  "Protocols": []
+}

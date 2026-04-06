@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>TEST-002</IncidentNumber>
+  <IncidentOrOnset>2025-06-03T09:30:00.000Z</IncidentOrOnset>
+  <DispatchNotified>2025-06-03T09:30:00.000Z</DispatchNotified>
+  <IncidentAddress1>456 Fire Ave</IncidentAddress1>
+  <IncidentCity>Emergency City</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90210</IncidentZip>
+  <CadDispatchText>House fire with entrapment</CadDispatchText>
+  <CallNature>Structure Fire</CallNature>
+  <SceneGpsLocationLat>34.0522</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.2437</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>ENGINE1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:30:00.000Z</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>LADDER1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:30:00.000Z</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>RESCUE1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-03T09:30:00.000Z</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

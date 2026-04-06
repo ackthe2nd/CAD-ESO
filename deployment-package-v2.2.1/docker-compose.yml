@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  resgrid-eso-bridge:
+    build: .
+    image: medsync-ems-suite:2.2.1
+    container_name: resgrid-eso-bridge
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - RESGRID_USER=${RESGRID_USER}
+      - RESGRID_PASS=${RESGRID_PASS}
+      - SFTP_HOST=${SFTP_HOST}
+      - SFTP_USER=${SFTP_USER}
+      - SFTP_PASS=${SFTP_PASS}
+      - SFTP_DIR=${SFTP_DIR}
+      - GOOGLE_SERVICE_ACCOUNT_JSON=${GOOGLE_SERVICE_ACCOUNT_JSON}
+      - LOG_SHEET_ID=${LOG_SHEET_ID}
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"

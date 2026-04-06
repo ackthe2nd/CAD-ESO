@@ -1,0 +1,129 @@
+Opening https://fly.io/app/auth/cli/6b7073706d367a6f34346d6f696f6762776e6d6f75646b7a366c70736c70616f ...
+
+==> Verifying app config
+Validating /home/runner/workspace/fly.toml
+[32m✓[0m Configuration is valid
+--> Verified app config
+==> Building image
+Waiting for depot builder...
+
+==> Building image with Depot
+--> build:  (​)
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 30B 0.1s
+#1 transferring dockerfile: 489B 0.2s done
+#1 DONE 0.2s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 0.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 33B 0.1s
+#3 transferring context: 845B 0.2s done
+#3 DONE 0.2s
+
+#4 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#4 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 25.00kB 0.8s done
+#5 DONE 0.8s
+
+#6 [2/6] WORKDIR /app
+#6 CACHED
+
+#7 [3/6] COPY package*.json ./
+#7 CACHED
+
+#8 [4/6] RUN npm ci --only=production
+#8 0.307 npm warn config only Use `--omit=dev` to omit dev dependencies from the install.
+#8 0.926 npm warn EBADENGINE Unsupported engine {
+#8 0.926 npm warn EBADENGINE   package: '@oozcitak/dom@2.0.2',
+#8 0.926 npm warn EBADENGINE   required: { node: '>=20.0' },
+#8 0.926 npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+#8 0.926 npm warn EBADENGINE }
+#8 0.927 npm warn EBADENGINE Unsupported engine {
+#8 0.927 npm warn EBADENGINE   package: '@oozcitak/infra@2.0.2',
+#8 0.927 npm warn EBADENGINE   required: { node: '>=20.0' },
+#8 0.927 npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+#8 0.927 npm warn EBADENGINE }
+#8 0.927 npm warn EBADENGINE Unsupported engine {
+#8 0.927 npm warn EBADENGINE   package: '@oozcitak/url@3.0.0',
+#8 0.927 npm warn EBADENGINE   required: { node: '>=20.0' },
+#8 0.927 npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+#8 0.927 npm warn EBADENGINE }
+#8 0.928 npm warn EBADENGINE Unsupported engine {
+#8 0.928 npm warn EBADENGINE   package: '@oozcitak/util@10.0.0',
+#8 0.928 npm warn EBADENGINE   required: { node: '>=20.0' },
+#8 0.928 npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+#8 0.928 npm warn EBADENGINE }
+#8 0.931 npm warn EBADENGINE Unsupported engine {
+#8 0.931 npm warn EBADENGINE   package: 'xmlbuilder2@4.0.3',
+#8 0.931 npm warn EBADENGINE   required: { node: '>=20.0' },
+#8 0.931 npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+#8 0.931 npm warn EBADENGINE }
+#8 3.260 npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+#8 5.602 
+#8 5.602 added 244 packages, and audited 245 packages in 5s
+#8 5.602 
+#8 5.602 46 packages are looking for funding
+#8 5.602   run `npm fund` for details
+#8 5.603 
+#8 5.603 found 0 vulnerabilities
+#8 5.604 npm notice
+#8 5.604 npm notice New major version of npm available! 10.8.2 -> 11.12.1
+#8 5.604 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+#8 5.604 npm notice To update run: npm install -g npm@11.12.1
+#8 5.604 npm notice
+#8 DONE 7.2s
+
+#9 [5/6] COPY . .
+#9 DONE 0.3s
+
+#10 [6/6] RUN mkdir -p logs temp
+#10 DONE 0.2s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 4.0s done
+#11 exporting manifest sha256:204a25e2ca513551b603da42bda5bcc77ad7f05b22424e65ad337f246771e992 done
+#11 exporting config sha256:e14ba1513a778817aaa1fcbfeb56b3c16a4d66619ea70859f1102a2a73d09dcb done
+#11 pushing layers for registry.fly.io/resgrid2eso:deployment-01KNJ65TH2RX9F49X31ZE4AMMS@sha256:204a25e2ca513551b603da42bda5bcc77ad7f05b22424e65ad337f246771e992
+#11 pushing layer sha256:acacdfeada6bdc894f3efdb26f451c411572937959a1535074019a4d30ff92d6
+#11 pushing layer sha256:439c27cc67d3e7d3f9f3808c4c90e4f6b9e074444d47885ba8bef78524adb44b
+#11 pushing layer sha256:e14ba1513a778817aaa1fcbfeb56b3c16a4d66619ea70859f1102a2a73d09dcb
+#11 pushing layer sha256:cde1c2cd7b569b6c57a97fa798fa04c1f5a540479f6d158f33e5218ed96a7e3b
+#11 pushing layer sha256:8d16910da251354b2adee9d99de2b103beb5e4bf59ccdb6994aaae5ebad12f04
+#11 pushing layer sha256:9275e2eeb3c2f851491e74dd1436d86aee46b7b58ab33c8193d612bc70db012a
+#11 pushing layer sha256:c78992ff06cf0b162c9ad93d6e377aa6f5c04a1fa49037c21a5b6d19425a4f99
+#11 pushing layer sha256:afaa00274f92cce26ec2acaac807abe5b1b085d100b3f23773a7dcf4a2721359
+#11 pushing layer sha256:8cdfdae2bb6e8c5397249b073011a684a28996f8cd4359fbe623b5d9132e0e66
+#11 pushing layer sha256:f75ada934cdc3d0b1cb4f34b5cc6f60d8ad6f5bf73ea487da3cd64048dc4bbdc
+#11 pushing layer sha256:8d16910da251354b2adee9d99de2b103beb5e4bf59ccdb6994aaae5ebad12f04 0.8s done
+#11 pushing layer sha256:acacdfeada6bdc894f3efdb26f451c411572937959a1535074019a4d30ff92d6 0.8s done
+#11 pushing layer sha256:439c27cc67d3e7d3f9f3808c4c90e4f6b9e074444d47885ba8bef78524adb44b 0.8s done
+#11 pushing layer sha256:e14ba1513a778817aaa1fcbfeb56b3c16a4d66619ea70859f1102a2a73d09dcb 0.8s done
+#11 pushing layer sha256:9275e2eeb3c2f851491e74dd1436d86aee46b7b58ab33c8193d612bc70db012a 0.8s done
+#11 pushing layer sha256:c78992ff06cf0b162c9ad93d6e377aa6f5c04a1fa49037c21a5b6d19425a4f99 0.8s done
+#11 pushing layer sha256:8cdfdae2bb6e8c5397249b073011a684a28996f8cd4359fbe623b5d9132e0e66 0.9s done
+#11 pushing layer sha256:cde1c2cd7b569b6c57a97fa798fa04c1f5a540479f6d158f33e5218ed96a7e3b 1.0s done
+#11 pushing layer sha256:f75ada934cdc3d0b1cb4f34b5cc6f60d8ad6f5bf73ea487da3cd64048dc4bbdc 1.5s done
+#11 pushing layers for registry.fly.io/resgrid2eso:deployment-01KNJ65TH2RX9F49X31ZE4AMMS@sha256:204a25e2ca513551b603da42bda5bcc77ad7f05b22424e65ad337f246771e992 1.5s done
+#11 pushing layer sha256:afaa00274f92cce26ec2acaac807abe5b1b085d100b3f23773a7dcf4a2721359 1.5s done
+#11 pushing manifest for registry.fly.io/resgrid2eso:deployment-01KNJ65TH2RX9F49X31ZE4AMMS@sha256:204a25e2ca513551b603da42bda5bcc77ad7f05b22424e65ad337f246771e992 0.1s done
+#11 DONE 5.7s
+--> Build Summary:  (​)
+[38;5;252m--> Building image done[0m
+image: registry.fly.io/resgrid2eso:deployment-01KNJ65TH2RX9F49X31ZE4AMMS
+image size: 70 MB
+
+Watch your deployment at https://fly.io/apps/resgrid2eso/monitoring
+
+Updating existing machines in 'resgrid2eso' with rolling strategy
+> Acquiring lease for 0801e3ef6717d8
+> Acquired lease for 0801e3ef6717d8
+> Updating machine config for 0801e3ef6717d8
+> Updating 0801e3ef6717d8 [app]
+> Updated machine config for 0801e3ef6717d8
+> Waiting for machine 0801e3ef6717d8 to reach a good state

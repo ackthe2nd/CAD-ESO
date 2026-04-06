@@ -1,0 +1,37 @@
+app = "resgrid2eso"
+primary_region = "lax"
+
+[build]
+
+[env]
+  PORT = "5000"
+  NODE_ENV = "production"
+
+[http_service]
+  internal_port = 5000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[[http_service.checks]]
+  interval = "15s"
+  grace_period = "5s"
+  method = "GET"
+  path = "/status"
+  protocol = "http"
+  timeout = "10s"
+  tls_skip_verify = false
+
+[vm]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512
+
+[[vm.mounts]]
+  source = "resgrid_eso_data"
+  destination = "/data"
+
+[processes]
+  app = "node src/index.js"

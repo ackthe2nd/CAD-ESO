@@ -1,0 +1,32 @@
+{
+  "name": "medsync-ems-suite",
+  "version": "2.2.2",
+  "description": "MEDsync EMS Suite - Emergency Service Data Integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node comprehensive-system-test-v2.2.2-final.js",
+    "health": "curl http://localhost:5000/status"
+  },
+  "keywords": ["emergency", "ems", "resgrid", "eso", "xml", "sftp"],
+  "author": "MEDsync Development Team",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.7",
+    "archiver": "^5.3.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.2.5",
+    "googleapis": "^118.0.0",
+    "ssh2-sftp-client": "^9.1.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0",
+    "xlsx": "^0.18.5",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

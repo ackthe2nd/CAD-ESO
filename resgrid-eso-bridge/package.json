@@ -1,0 +1,24 @@
+{
+  "name": "resgrid-eso-bridge",
+  "version": "1.0.0",
+  "main": "listener.js",
+  "scripts": {
+    "start": "node listener.js",
+    "fetch-calls": "node fetch-existing-calls.js",
+    "show-calls": "node show-recent-calls.js",
+    "test-token": "node test-token.js",
+    "test-xml": "node test-xml-generation.js"
+  },
+  "keywords": ["resgrid", "eso", "emergencyservices", "signalr", "sftp", "integration"],
+  "author": "",
+  "license": "ISC",
+  "description": "A Node.js service that listens for Resgrid SignalR events and forwards call data as XML to ESO via SFTP",
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "ssh2-sftp-client": "^12.0.0",
+    "winston": "^3.17.0",
+    "xmlbuilder2": "^3.1.1"
+  }
+}

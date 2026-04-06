@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>201108</IncidentNumber>
+  <IncidentOrOnset>2025-06-07T15:48:11.08</IncidentOrOnset>
+  <DispatchNotified>2025-06-07T15:48:11.08</DispatchNotified>
+  <IncidentAddress1>7370-7350 Romaine St</IncidentAddress1>
+  <IncidentCity>Los Angeles</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90046</IncidentZip>
+  <CadDispatchText>EVENT: Other - Non-Emergency - INCIDENT TYPE: GENERAL MEDICAL - LOCATION: TEST - 7370-7350 Romaine St, Los Angeles, CA 90046, USA - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS:  -  HAS 911 BEEN CONTACTED?: () - COMPLAINANT: John Doe - (111) 111-1111  - I am the patient</CadDispatchText>
+  <CallNature>GENERAL MEDICAL</CallNature>
+  <SceneGpsLocationLat>34.089045321435584</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.35037704321545</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>SETMED1</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-07T15:48:11.08</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared>2025-06-07T15:48:11.08</UnitCleared>
+      <UnitBackInService>2025-06-07T15:48:11.08</UnitBackInService>
+      <PatientFirstName>John</PatientFirstName>
+      <PatientLastName>Doe</PatientLastName>
+      <PatientDOB>2000-10-10</PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

@@ -1,0 +1,23 @@
+{
+  "version": "v2.1.4",
+  "buildDate": "2025-06-09T06:06:23.059Z",
+  "features": [
+    "XML namespace compliance (xmlns:xsi)",
+    "Enhanced logging with CallId context",
+    "Environment validation",
+    "Code cleanup and optimization",
+    "ChatGPT audit implementations"
+  ],
+  "deploymentReady": true,
+  "changelog": {
+    "v2.1.4": [
+      "Fixed critical XML namespace syntax error (xmlns_xsi → xmlns:xsi)",
+      "Applied fix across all deployment packages",
+      "Enhanced logging with [Call {callId}] context",
+      "Added startup environment validation",
+      "Implemented ChatGPT audit recommendations",
+      "Archived unused XML generator variants",
+      "Comprehensive system documentation updates"
+    ]
+  }
+}

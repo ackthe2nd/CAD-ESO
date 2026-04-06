@@ -1,0 +1,54 @@
+# Git files
+.git
+.github
+.gitignore
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Development files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.vs
+*.vspscc
+*.vssscc
+*.sln.docstates
+
+# Testing files
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio files
+.vs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.\#*
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Node.js files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db

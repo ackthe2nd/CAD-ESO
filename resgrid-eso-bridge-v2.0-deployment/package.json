@@ -1,0 +1,29 @@
+{
+  "name": "resgrid-eso-bridge",
+  "version": "2.0.0",
+  "description": "Production-ready emergency service data integration with advanced testing capabilities",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node system-test-comprehensive.js",
+    "test-call": "node test-call-functionality.js",
+    "health": "curl -s http://localhost:5000/health"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fast-xml-parser": "^4.3.6",
+    "googleapis": "^134.0.0",
+    "ssh2-sftp-client": "^10.0.3",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0",
+    "xlsx": "^0.18.5",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

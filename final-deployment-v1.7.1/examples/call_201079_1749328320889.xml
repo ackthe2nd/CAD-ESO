@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>201079</IncidentNumber>
+  <IncidentOrOnset>2025-06-07T17:02:47.423</IncidentOrOnset>
+  <DispatchNotified>2025-06-07T17:02:47.423</DispatchNotified>
+  <IncidentAddress1>7339-7399 Romaine St</IncidentAddress1>
+  <IncidentCity>Los Angeles</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>90046</IncidentZip>
+  <CadDispatchText>EVENT: - Non-Emergency - INCIDENT TYPE: GENERAL MEDICAL - LOCATION: Quixote Studios - 7339-7399 Romaine St, Los Angeles, CA 90046, USA - ALERTS: NOT BREATHING? (NO) - NOT CONSCIOUS? (NO) - DETAILS: - HAS 911 BEEN CONTACTED?: () - COMPLAINANT: - -</CadDispatchText>
+  <CallNature>General Medical</CallNature>
+  <SceneGpsLocationLat>34.0890182</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.3494106</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>SETMED1</EmsUnitCallSign>
+      <ResponseModeToScene>395</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-06-07T17:02:47.423</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

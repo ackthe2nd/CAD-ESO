@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CadIncident xmlns_xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IncidentNumber>200576</IncidentNumber>
+  <IncidentOrOnset>2025-05-31T13:46:55.72</IncidentOrOnset>
+  <DispatchNotified>2025-05-31T13:46:55.72</DispatchNotified>
+  <IncidentAddress1>1031-1041 S Glendale Ave</IncidentAddress1>
+  <IncidentCity>Glendale</IncidentCity>
+  <IncidentState>CA</IncidentState>
+  <IncidentZip>91205</IncidentZip>
+  <CadDispatchText>EVENT: Other - EMERGENCY - INCIDENT TYPE: MEDICAL EMERGENCY - LOCATION: TEST TEST - 1031-1041 S Glendale Ave, Glendale, CA 91205, USA - ALERTS: NOT BREATHING? (YES) - NOT CONSCIOUS? (YES) - DETAILS:  -  HAS 911 BEEN CONTACTED?: (NO) - COMPLAINANT:  -   -</CadDispatchText>
+  <CallNature>MEDICAL EMERGENCY</CallNature>
+  <SceneGpsLocationLat>34.13394367411237</SceneGpsLocationLat>
+  <SceneGpsLocationLong>-118.2519154120917</SceneGpsLocationLong>
+  <Units>
+    <Unit>
+      <EmsUnitCallSign>STN2</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-31T13:46:55.72</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>STN1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-31T13:46:55.72</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>STN3</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-31T13:46:55.72</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+    <Unit>
+      <EmsUnitCallSign>IC1</EmsUnitCallSign>
+      <ResponseModeToScene>390</ResponseModeToScene>
+      <UnitNotifiedByDispatch>2025-05-31T13:46:55.72</UnitNotifiedByDispatch>
+      <UnitEnRoute></UnitEnRoute>
+      <UnitArrivedOnScene></UnitArrivedOnScene>
+      <UnitAtPatient></UnitAtPatient>
+      <UnitCleared></UnitCleared>
+      <UnitBackInService></UnitBackInService>
+      <PatientFirstName></PatientFirstName>
+      <PatientLastName></PatientLastName>
+      <PatientDOB></PatientDOB>
+    </Unit>
+  </Units>
+</CadIncident>

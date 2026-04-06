@@ -1,0 +1,30 @@
+MEDsync EMS Suite - Production Deployment Package
+Version: 2.2.3
+Release Date: June 18, 2025
+Critical Fix: 24-Hour Timestamp Format Bug Resolution
+
+Components:
+- Resgrid SignalR Event Processing
+- XML Generation with ESO Compliance
+- SFTP Upload to ESO Systems
+- Google Sheets Comprehensive Logging
+- Web Health Monitoring Interface
+- 24-Hour Timestamp Format Correction
+
+Status: PRODUCTION READY
+Priority: CRITICAL DEPLOYMENT REQUIRED
+
+Deployment Platform: Fly.io
+Runtime: Node.js 20.x
+Memory: 512MB minimum
+Port: 5000 (required for Replit compatibility)
+
+Key Features:
+✓ Real-time call processing
+✓ Pacific Time timestamp preservation
+✓ Duplicate prevention
+✓ Call closure detection
+✓ GPS coordinate geocoding
+✓ Comprehensive error handling
+✓ Automatic retry mechanisms
+✓ XML integrity monitoring
